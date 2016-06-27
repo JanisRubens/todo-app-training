@@ -1,0 +1,31 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "simple todo app with express and react",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server/server.js",
+    "dev": "webpack-dev-server --content-base public --inline --hot"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "spa",
+    "api"
+  ],
+  "author": "janis.rubens@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "webpack": "^1.12.9"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

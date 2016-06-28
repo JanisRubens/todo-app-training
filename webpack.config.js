@@ -22,6 +22,7 @@ module.exports = {
 		path: __dirname + "/public/",
 		filename: "client.min.js"
 	},
+	//this helps with browserHistory while dev-server ir runing.
 	devServer: {
 		historyApiFallback: true
 	},
